@@ -8,6 +8,5 @@ class Punto:
     def __str__(self):
         return f"({self.x}, {self.y})"
 
-# Ejemplo de uso de la clase Punto
 punto1 = Punto(3, 4)
 print("Coordenadas del punto:", punto1)
