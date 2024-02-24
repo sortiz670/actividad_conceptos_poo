@@ -20,7 +20,6 @@ class Rectangulo:
         alto = abs(self.esquina1[1] - self.esquina2[1])
         return ancho == alto
 
-# Ejemplo de uso
 rectangulo = Rectangulo((0, 0), (2, 2))
 
 print("Perímetro:", rectangulo.perimetro())
