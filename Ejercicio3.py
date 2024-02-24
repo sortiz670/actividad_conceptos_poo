@@ -25,7 +25,6 @@ class Punto:
         distancia = math.sqrt((otro_punto.x - self.x) ** 2 + (otro_punto.y - self.y) ** 2)
         return distancia
 
-# Ejemplo de uso del método calcular_distancia
 punto1 = Punto(3, 4)
 punto2 = Punto(6, 8)
 
