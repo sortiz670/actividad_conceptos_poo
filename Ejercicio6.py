@@ -5,13 +5,11 @@ class Carta:
         self.valor = valor
         self.pinta = pinta
 
-# Definición de las constantes para las pintas
 CORAZON = "Corazón"
 DIAMANTE = "Diamante"
 TREBOL = "Trébol"
 ESPADA = "Espada"
 
-# Ejemplo de creación de una carta
 mi_carta = Carta(4, CORAZON)
 print("Valor:", mi_carta.valor)
 print("Pinta:", mi_carta.pinta)
